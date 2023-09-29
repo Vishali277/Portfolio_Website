@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(44 36 69);
+            color: rgb(162 144 198);
+            font-family: 'Oswald', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            /* background-color: #564d5f; */
+            background-color: #20132d;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(162 144 198);
+        }
+
+        nav ul li a:hover {
+            color: rgb(72, 120, 145);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 2px;
+
+            background: #20132d;
+            height: 3px;
+            margin: 30px 114px;
+
+        }
+
+        .left a {
+            font-size: 34px;
+            text-decoration: none;
+
+        }
+
+        .left a:hover {
+            pointer-events: all;
+            text-decoration: none;
+            color: rgb(107, 165, 215);
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 10px;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            /* background-color: antiquewhite; */
+            font-size: 3rem;
+            margin: 120px 40px;
+
+        }
+        .leftSection .button{
+            padding: 30px;
+            margin: auto;
+        }
+        .leftSection .btn{
+      padding: 12px;
+      border: 2px solid white;
+      /* background-color:  rgb(69 40 127); */
+      background-color: rgb(55 28 108);
+      font-size: 20px;
+        }
+        .btn:hover{
+            color: beige;
+            background-color: rgb(93, 17, 103);
+           cursor: pointer;
+        }
+
+
+        .rightSection img {
+            width: 100%;
+            margin: 50px 0px;
+        }
+
+        .purple {
+            color: rgb(126, 71, 158);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            font-size: 1.9em;
+            /* font-weight: bold; */
+        }
+
+        .firstSection p {
+            font-size: 24px;
+            margin: 34px 5px;
+            margin-bottom: 5px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .secondsection p {
+            margin-top: 23px;
+            font-size: 27px;
+            color: #61619f;
+        }
+
+        .text-grey {
+            color: gray;
+            font-size: 23px;
+        }
+
+        footer {
+            background-color: #515180;
+            margin-top: 143px;
+         
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+            color: whitesmoke;
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="">Vishali's Portfolio</a>
+            </div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="">
+                            Home
+                        </a> </li>
+
+                    <li><a href="">
+                            About
+                        </a> </li>
+
+                    <li><a href="">
+                            Services
+                        </a> </li>
+
+                    <li><a href="">
+                            Projects
+                        </a> </li>
+
+
+                    <li> <a href="">
+                            Contact Me
+                        </a> </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name Is <span class="purple">Vishali</span>
+                <div>I'm A Web Developer </div>
+                <p> I like to create different websites and work on new projects. </p>
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+            </div>
+
+            <div class="rightSection">
+                <img src="img.jpg.jpg" alt="">
+            </div>
+        </section>
+
+        <hr>
+        <section class="secondsection">
+            <!-- <span class="text-grey">I am Vishali</span> -->
+            <h2>About Myself</h2>
+            <p> I'm thrilled to introduce myself as an aspiring web developer on a quest to kickstart my career in the
+                tech industry. I am actively seeking to gain hands-on experience, learn from seasoned professionals, and
+                contribute to exciting web development projects.</p>
+
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Vishali's Portfolio</h3>
+
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169 vishalisportfolio.com | All rights reserved 
+        </div>
+    </footer>
+
+</body>
+
+</html>
